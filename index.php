@@ -36,8 +36,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
                 <div class="gallery-wrap">
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/gallery-1.jpg" alt="pic">
                     <div class="gallery-content">
-                        <h3>Everything for <br> the comfort of your <br> bedroom</h3>
-                        <a href="<?=SITE_TEMPLATE_PATH?>/img/gallery-2.jpg" class="gallery-link img-popup" data-gall="galleryimg">Explore <i class="ti-arrow-right"></i></a>
+                        <h3>Коллекции</h3>
+                        <a href="#" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- Pic-1 -->
@@ -45,8 +45,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
                 <div class="gallery-wrap">
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/gallery-2.jpg" alt="pic">
                     <div class="gallery-content">
-                        <h3>Everything for <br> the comfort of your <br> bedroom</h3>
-                        <a href="<?=SITE_TEMPLATE_PATH?>/img/gallery-2.jpg" class="gallery-link img-popup" data-gall="galleryimg">Explore <i class="ti-arrow-right"></i></a>
+                        <h3>Рекомендуем</h3>
+                        <a href="#" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- Pic-2 -->
@@ -54,8 +54,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
                 <div class="gallery-wrap">
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/gallery-3.jpg" alt="pic">
                     <div class="gallery-content">
-                        <h3>Everything for <br> the comfort of your <br> bedroom</h3>
-                        <a href="<?=SITE_TEMPLATE_PATH?>/img/gallery-3.jpg" class="gallery-link img-popup" data-gall="galleryimg">Explore <i class="ti-arrow-right"></i></a>
+                        <h3>Бренды</h3>
+                        <a href="/brands/" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- Pic-3 -->
@@ -63,8 +63,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
                 <div class="gallery-wrap">
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/gallery-4.jpg" alt="pic">
                     <div class="gallery-content">
-                        <h3>Everything for <br> the comfort of your <br> bedroom</h3>
-                        <a href="<?=SITE_TEMPLATE_PATH?>/img/gallery-4.jpg" class="gallery-link img-popup" data-gall="galleryimg">Explore <i class="ti-arrow-right"></i></a>
+                        <h3>Новые поступления</h3>
+                        <a href="#" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- Pic-4 -->
@@ -72,8 +72,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
                 <div class="gallery-wrap">
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/gallery-5.jpg" alt="pic">
                     <div class="gallery-content">
-                        <h3>Everything for <br> the comfort of your <br> bedroom</h3>
-                        <a href="<?=SITE_TEMPLATE_PATH?>/img/gallery-5.jpg" class="gallery-link img-popup" data-gall="galleryimg">Explore <i class="ti-arrow-right"></i></a>
+                        <h3>О нас</h3>
+                        <a href="/about/" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- Pic-5 -->
@@ -81,8 +81,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
                 <div class="gallery-wrap">
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/gallery-6.jpg" alt="pic">
                     <div class="gallery-content">
-                        <h3>Everything for <br> the comfort of your <br> bedroom</h3>
-                        <a href="<?=SITE_TEMPLATE_PATH?>/img/gallery-6.jpg" class="gallery-link img-popup" data-gall="galleryimg">Explore <i class="ti-arrow-right"></i></a>
+                        <h3>Новости</h3>
+                        <a href="/news/" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- Pic-6 -->
