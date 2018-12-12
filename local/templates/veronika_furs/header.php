@@ -68,12 +68,21 @@
         <div class="overlay" id="overlay">
             <nav class="overlay-menu d-flex align-items-center">
                 <ul>
-                    <li ><a href="index.html">Главная</a></li>
-                    <li><a href="about.html">О компании</a></li>
-                    <li><a href="gallery.html">Каталог</a></li>
-                    <li><a href="blog.html">Новости</a></li>
-                    <li><a href="services.html">Сертификаты</a></li>
-                    <li><a href="contact.html">Контакты</a></li>
+                    <?php $APPLICATION->IncludeComponent("bitrix:menu", "top",
+                        Array(
+                            "ROOT_MENU_TYPE" => "top",
+                            "MAX_LEVEL" => "1",
+                            "CHILD_MENU_TYPE" => "left",
+                            "USE_EXT" => "N",
+                            "MENU_CACHE_TYPE" => "A",
+                            "MENU_CACHE_TIME" => "3600",
+                            "MENU_CACHE_USE_GROUPS" => "Y",
+                            "MENU_CACHE_GET_VARS" => "",
+                            "DELAY" => "N",
+                            "ALLOW_MULTI_SELECT" => "N",
+                        ),
+                        false
+                    ); ?>
                 </ul>
             </nav>
             <?php $APPLICATION->IncludeComponent(
