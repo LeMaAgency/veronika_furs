@@ -76,11 +76,39 @@
                     <li><a href="contact.html">Контакты</a></li>
                 </ul>
             </nav>
-            <form class="form-search">
-                <div class="form-group">
-                    <i class="fa fa-search"></i>
-                    <input type="search" id="search" name="search" class="form-control" placeholder="Поиск">
-                </div>
-            </form>
+            <?php $APPLICATION->IncludeComponent(
+                "bitrix:search.title",
+                "search",
+                array(
+                    "NUM_CATEGORIES" => "1",
+                    "TOP_COUNT" => "5",
+                    "ORDER" => "date",
+                    "USE_LANGUAGE_GUESS" => "N",
+                    "CHECK_DATES" => "N",
+                    "SHOW_OTHERS" => "N",
+                    "PAGE" => SITE_DIR."catalog/",
+                    "CATEGORY_0_TITLE" => "",
+                    "CATEGORY_0" => array(
+                        0 => "iblock_catalog",
+                    ),
+                    "SHOW_INPUT" => "Y",
+                    "INPUT_ID" => "title-search-input",
+                    "CONTAINER_ID" => "title-search",
+                    "PRICE_CODE" => array(
+                        0 => "BASE",
+                    ),
+                    "PRICE_VAT_INCLUDE" => "N",
+                    "PREVIEW_TRUNCATE_LEN" => "",
+                    "SHOW_PREVIEW" => "Y",
+                    "PREVIEW_WIDTH" => "75",
+                    "PREVIEW_HEIGHT" => "75",
+                    "CONVERT_CURRENCY" => "N",
+                    "COMPONENT_TEMPLATE" => "search",
+                    "CATEGORY_0_iblock_catalog" => array(
+                        0 => "all",
+                    )
+                ),
+                false
+            ); ?>
         </div><!-- Header Menu -->
 
