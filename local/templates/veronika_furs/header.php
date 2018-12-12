@@ -9,7 +9,10 @@
 		<meta name="description" content="Elexer is a stunning photography website template">
         <meta name="author" content="TeamXcel">
 
-        <title>Elexer | Photography Website Template</title>
+        <?
+        $site_name = \Bitrix\Main\Config\Option::get('main', 'site_name');
+        ?>
+        <title><?php echo ($curPage == SITE_DIR.'index.php')?$site_name:$APPLICATION->ShowTitle()?></title>
 
 		<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/img/favicon.png">
 
