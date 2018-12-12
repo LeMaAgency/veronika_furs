@@ -2,19 +2,11 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
 
 <div class="slider-section">
-    <div class="profile-info">
-        <div class="d-flex align-items-center w-100">
-            <div class="mx-auto profile-inner">
-                <h2>Johnston Malone<span>Photographer</span></h2>
-                <span class="border-1"></span>
-                <span class="border-2"></span>
-            </div>
-        </div>
-    </div>
-    <div class="owl-carousel main-slider">
-        <div class="slide-item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/slider-1.jpg);"></div>
-        <div class="slide-item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/slider-2.jpg);"></div>
-        <div class="slide-item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/slider-3.jpg);"></div>
+    <div id="main_video_wrap" class="main_video_wrap">
+        <video id="main_video" muted  autoplay="autoplay" loop="loop" preload="auto" controls>
+            <source src="<?=SITE_TEMPLATE_PATH?>/video/main.mp4"></source>
+            <source src="<?=SITE_TEMPLATE_PATH?>/video/main.webm"></source>
+        </video>
     </div>
 </div><!-- Slider -->
 

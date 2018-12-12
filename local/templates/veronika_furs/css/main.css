@@ -1849,3 +1849,16 @@ span.date {
 .instafeed a:hover img {
   opacity: 1;
 }
+
+/*Добавлено позже*/
+.main_video_wrap{
+  max-height: 754px;
+  overflow: hidden;
+}
+.main_video_wrap video{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top:-90px;
+  margin-bottom: -90px;
+}
