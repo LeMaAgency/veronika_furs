@@ -20,9 +20,10 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
 
 <section class="about-section padding">
     <div class="container">
-        <div class="profile"></div>
+        <a href="#" class="profile"></a>
         <div class="about-content text-center">
-            <h2 class="wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">Photography has become my language to express my thinking, <br> emotions to people. I love working with people's life style. <br> I love Photography.</h2>
+            <h2 class="wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">"VERONIKA   FURS” - интернет- магазин верхней женской одежды из меха, кожи и аксессуаров.
+                <br> Мы сотрудничаем напрямую с производителями и делаем лучшее доступным</h2>
             <img class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms" src="<?=SITE_TEMPLATE_PATH?>/img/sign.png" alt="sign">
         </div>
     </div>
