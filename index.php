@@ -3,9 +3,9 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
 
 <div class="slider-section">
     <div id="main_video_wrap" class="main_video_wrap">
-        <video id="main_video" muted  autoplay="autoplay" loop="loop" preload="auto" controls>
-            <source src="<?=SITE_TEMPLATE_PATH?>/video/main.mp4"></source>
-            <source src="<?=SITE_TEMPLATE_PATH?>/video/main.webm"></source>
+        <video id="main_video" muted  autoplay="autoplay" loop="loop" preload="auto">
+            <source src="<?=SITE_TEMPLATE_PATH?>/video/main_min_fixed.mp4"></source>
+            <source src="<?=SITE_TEMPLATE_PATH?>/video/main_min_fixed.webm"></source>
         </video>
     </div>
 </div><!-- Slider -->
