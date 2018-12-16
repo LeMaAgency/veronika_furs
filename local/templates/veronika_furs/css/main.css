@@ -1854,7 +1854,6 @@ span.date {
 .main_video_wrap{
   max-height: 764px;
   overflow: hidden;
-  padding-top: 7%;
 }
 .main_video_wrap video{
   height: 100%;
@@ -1862,4 +1861,7 @@ span.date {
   position: relative;
   display: block;
   margin: 0 auto;
+}
+.header-section{
+  position: relative;
 }
