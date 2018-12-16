@@ -29,7 +29,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/gallery-1.jpg" alt="pic">
                     <div class="gallery-content">
                         <h3>Коллекции</h3>
-                        <a href="#" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
+                        <a href="/catalog/" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- Pic-1 -->
@@ -38,7 +38,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/gallery-2.jpg" alt="pic">
                     <div class="gallery-content">
                         <h3>Рекомендуем</h3>
-                        <a href="#" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
+                        <a href="/rekomenduem/" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- Pic-2 -->
@@ -56,7 +56,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/gallery-4.jpg" alt="pic">
                     <div class="gallery-content">
                         <h3>Новые поступления</h3>
-                        <a href="#" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
+                        <a href="/novye-postupleniya/" class="gallery-link" >Подробнее <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- Pic-4 -->
@@ -80,7 +80,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
             </div><!-- Pic-6 -->
         </div>
         <div class=" w-100 text-center">
-            <a class="load-more" href="#"><i class="ti-reload"></i>Load More Photographs</a>
+            <a class="load-more" href="/auth/"><i class="ti-reload"></i>Load More Photographs</a>
         </div>
     </div>
 </section><!-- Gallery -->
