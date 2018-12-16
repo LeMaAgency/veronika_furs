@@ -1,3 +1,4 @@
+<? use Bitrix\Main\Page\Asset; ?>
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -33,7 +34,8 @@
 		<!-- OWL-Carousel CSS -->
         <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/owl.carousel.css">
 		<!-- Main CSS -->
-        <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/main.css">
+        <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/main.css")?>
+<!--        <link rel="stylesheet" href="--><?//=SITE_TEMPLATE_PATH?><!--/css/main.css">-->
 		<!-- Responsive CSS -->
         <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/responsive.css">
         <?$APPLICATION->ShowHead();?>
