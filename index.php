@@ -12,7 +12,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
 
 <section class="about-section padding">
     <div class="container">
-        <a href="#" class="profile"></a>
+        <a href="<?=SITE_DIR?>catalog/limited_collection/" class="profile"></a>
         <div class="about-content text-center">
             <h2 class="wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">"VERONIKA   FURS” - интернет- магазин верхней женской одежды из меха, кожи и аксессуаров.
                 <br> Мы сотрудничаем напрямую с производителями и делаем лучшее доступным</h2>
