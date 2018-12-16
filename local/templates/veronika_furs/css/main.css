@@ -1852,11 +1852,14 @@ span.date {
 
 /*Добавлено позже*/
 .main_video_wrap{
-  max-height: 964px;
+  max-height: 764px;
   overflow: hidden;
+  padding-top: 7%;
 }
 .main_video_wrap video{
   height: 100%;
-  width: 100%;
+  width: 70%;
   position: relative;
+  display: block;
+  margin: 0 auto;
 }
